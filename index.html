@@ -1,0 +1,1051 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18500310065"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18500310065');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Cotizá tu plan Omint con asesoramiento personalizado por WhatsApp. Omint Vos, Génesis, Global, Clásico y Premium. Clínicas propias en CABA y San Isidro.">
+<meta name="theme-color" content="#001D85">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_AR">
+<meta property="og:title" content="Tu opción en coberturas | Planes Omint">
+<meta property="og:description" content="Cotizá por WhatsApp el plan Omint que corresponde a tu edad, tu zona y cómo aportás.">
+<!-- Cuando tengas dominio: agregá <link rel="canonical" href="https://TU-DOMINIO.com/omint/"> y og:image con la URL completa de una imagen -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Tu opción en coberturas","sameAs":["https://www.instagram.com/tuopcion.encoberturas/","https://www.facebook.com/profile.php?id=61594586745911"]}
+</script>
+<title>Tu opción en coberturas | Planes Omint</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Colores de Omint: azul del logo, lavanda de la llama y el degradé de Omint Vos.
+   Layout: hero con formulario, promos, planes filtrables, Omint Vos, clínicas y cartilla, app, pasos y FAQ. */
+:root{
+  --navy-deep:#000E4A;
+  --navy:#001D85;
+  --blue:#4361E0;
+  --blue-600:#2C47C2;
+  --lav:#8980C0;
+  --lav-2:#B9B0EC;
+  --lav-soft:#F1EFFB;
+  --pink:#E28BF0;
+  --sky-vos:#62A9F4;
+  --lime:#C4C93A;
+  --ink:#0A1440;
+  --muted:#4E577C;
+  --line:#DCDDF0;
+  --sky:#F1EFFB;
+  --paper:#FFFFFF;
+  --wa:#118A48;
+  --wa-hover:#0C7239;
+  --err:#C0304A;
+  --vos:linear-gradient(100deg,#E28BF0 0%,#A9A6F0 35%,#7DB7EE 65%,#B5D58F 100%);
+  --font-display:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-body:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --radius:18px;
+  --shadow:0 18px 50px -18px rgba(0,14,74,.35);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.55}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-display);line-height:1.12;margin:0;text-wrap:balance;letter-spacing:-.015em}
+p{margin:0}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:20px}
+.eyebrow{font-family:var(--font-display);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-600)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:15px;text-decoration:none;padding:14px 22px;border-radius:999px;border:0;cursor:pointer;min-height:48px;transition:transform .15s ease,background .15s ease,box-shadow .15s ease}
+.btn:focus-visible,.pill:focus-within span,select:focus-visible,input:focus-visible,summary:focus-visible,.chip:focus-visible,.nav a:focus-visible,.arrow:focus-visible,.ztab:focus-visible{outline:3px solid var(--lav-2);outline-offset:2px}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:var(--wa-hover);transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-deep);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 2px var(--line)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 2px var(--blue)}
+.btn-block{width:100%}
+.wa-ico{width:20px;height:20px;flex:none}
+
+/* ---------- Header ---------- */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand img.logo{height:38px;width:auto}
+.brand .sep{width:1px;height:28px;background:var(--line);flex:none}
+.brand img.om{height:20px;width:auto;flex:none}
+@media(max-width:420px){.brand img.logo{height:30px}.brand img.om{height:16px}.brand{gap:9px}}
+.nav{display:none;gap:24px}
+.nav a{font-weight:600;font-size:15px;text-decoration:none;color:var(--navy);padding:6px 2px;border-bottom:2px solid transparent}
+.nav a:hover{border-bottom-color:var(--lav)}
+.top .btn{padding:10px 18px;min-height:42px;font-size:14px;flex:none}
+@media(min-width:1000px){.nav{display:flex}}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;color:#fff;background:
+  radial-gradient(800px 480px at 88% -5%,rgba(185,176,236,.35),transparent 60%),
+  radial-gradient(600px 400px at 0% 100%,rgba(98,169,244,.22),transparent 60%),
+  linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 55%,#2B2F9E 100%)}
+.hero::before{content:"";position:absolute;right:-120px;bottom:-140px;width:620px;height:720px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='8 6 14 19.4'%3E%3Cpath fill='%23fff' d='M16.0729 18.4585C15.371 19.1973 13.6911 21.3542 14.435 25.209C14.435 25.209 8.27952 20.5558 13.1571 14.3892C13.1571 14.3892 16.2709 10.6296 14.387 6.6377C14.387 6.6377 21.7005 12.1072 16.3429 18.1368C16.3489 18.1308 16.2529 18.2679 16.0729 18.4585Z'/%3E%3C/svg%3E") center/contain no-repeat;opacity:.06;pointer-events:none}
+.hero .wrap{position:relative;display:grid;gap:28px;padding-block:36px 56px;grid-template-columns:minmax(0,1fr);grid-template-areas:"copy" "form" "visual"}
+.copy{grid-area:copy;display:flex;flex-direction:column;gap:18px}
+.formcol{grid-area:form}
+.visual{grid-area:visual}
+@media(min-width:980px){
+  .hero .wrap{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);column-gap:56px;row-gap:28px;grid-template-areas:"copy form" "visual form";padding-block:56px 72px;align-items:start}
+}
+.tag{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:13px;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+.tag img{height:15px;width:auto}
+.hero h1{font-size:clamp(32px,5vw,52px);font-weight:800}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,#F2B6FA,#C9C2F2 50%,#A9D3FA);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{font-size:clamp(16px,2vw,19px);color:#D5DBF7;max-width:52ch}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.checks li{display:flex;gap:12px;align-items:flex-start;font-weight:500;color:#EEF0FF}
+.checks svg{flex:none;width:22px;height:22px;margin-top:1px}
+.visual{position:relative;border-radius:22px;overflow:hidden;box-shadow:0 24px 60px -24px rgba(0,0,0,.55);aspect-ratio:16/10;width:100%;min-width:0}
+@media(min-width:980px){.visual{aspect-ratio:2/1}}
+.visual img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.visual::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,14,74,0) 40%,rgba(0,14,74,.85) 100%)}
+.stairs{position:absolute;z-index:2;left:10px;right:10px;bottom:10px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.stair{min-width:0;background:rgba(255,255,255,.96);color:var(--navy);border-radius:12px;padding:8px 10px;display:flex;flex-direction:column;line-height:1.15}
+.stair b{font-family:var(--font-display);font-weight:800;font-size:clamp(13px,2.2vw,17px)}
+.stair span{font-size:12px;font-weight:600;color:var(--muted)}
+.stair:first-child{background:var(--vos)}
+.stair:first-child b,.stair:first-child span{color:var(--navy-deep)}
+
+/* ---------- Formulario ---------- */
+.card{background:var(--paper);color:var(--ink);border-radius:24px;box-shadow:var(--shadow);padding:24px 22px 26px}
+@media(min-width:520px){.card{padding:30px 30px 32px}}
+.card h2{font-size:24px;font-weight:800;color:var(--navy)}
+.card .sub{color:var(--muted);font-size:14.5px;margin-top:6px}
+.steps{display:flex;align-items:center;gap:10px;margin:18px 0 6px;font-size:13px;font-weight:700;color:var(--muted)}
+.bar{flex:1;height:6px;border-radius:99px;background:var(--sky);overflow:hidden}
+.bar i{display:block;height:100%;width:50%;background:var(--vos);border-radius:99px;transition:width .3s ease}
+.chosen{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.chosen:empty{display:none}
+.chosen button{border:0;cursor:pointer;display:inline-flex;gap:8px;align-items:center;background:var(--sky);color:var(--navy);font-weight:600;font-size:13px;padding:6px 8px 6px 12px;border-radius:99px}
+.chosen button span{display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#fff;font-size:12px;line-height:1}
+.field{display:grid;gap:7px;margin-top:16px;border:0;padding:0;min-width:0}
+.field>label,.field>legend{font-weight:700;font-size:14px;color:var(--navy);padding:0}
+.field input[type=text],.field input[type=email],.field input[type=tel],.field select{width:100%;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;min-height:48px;appearance:none}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1.5l6 6 6-6' fill='none' stroke='%23001D85' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}
+.field input:focus,.field select:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 4px rgba(67,97,224,.18)}
+.field [aria-invalid=true]{border-color:var(--err)}
+.err{font-size:13px;font-weight:600;color:var(--err)}
+.err:empty{display:none}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{position:relative}
+.pill input{position:absolute;opacity:0;pointer-events:none;inset:0}
+.pill span{display:inline-flex;align-items:center;min-height:44px;padding:9px 15px;border-radius:12px;border:1.5px solid var(--line);font-weight:600;font-size:14.5px;color:var(--navy);cursor:pointer;background:#fff;transition:all .15s ease}
+.pill:hover span{border-color:var(--blue)}
+.pill input:checked+span{background:var(--navy);border-color:var(--navy);color:#fff}
+.two{display:grid;gap:0 14px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:520px){.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.consent{display:flex;gap:11px;align-items:flex-start;margin-top:18px;font-size:13px;color:var(--muted)}
+.consent input{width:20px;height:20px;margin-top:1px;flex:none;accent-color:var(--navy)}
+.actions{display:flex;gap:10px;margin-top:20px}
+.actions .btn-ghost{flex:0 0 auto}
+.actions .btn-wa,.actions .btn-navy{flex:1}
+.direct{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:16px;padding-top:16px;border-top:1px dashed var(--line);font-size:14px;color:var(--muted);flex-wrap:wrap;text-align:center}
+.direct a{color:var(--wa);font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.direct a:hover{text-decoration:underline}
+.direct svg{width:18px;height:18px}
+.ok{display:grid;gap:14px;text-align:left}
+.ok .mark{width:54px;height:54px;border-radius:50%;background:var(--sky);display:grid;place-items:center}
+.ok dl{margin:0;display:grid;gap:8px;background:var(--sky);border-radius:14px;padding:14px 16px;font-size:14px}
+.ok dl div{display:flex;justify-content:space-between;gap:16px}
+.ok dt{color:var(--muted)}
+.ok dd{margin:0;font-weight:700;color:var(--navy);text-align:right;overflow-wrap:anywhere}
+.small{font-size:12.5px;color:var(--muted)}
+
+/* ---------- Cinta ---------- */
+.ribbon{background:var(--vos);color:var(--navy-deep);overflow:hidden;white-space:nowrap}
+.ribbon div{display:inline-flex;animation:slide 40s linear infinite;will-change:transform}
+.ribbon span{font-family:var(--font-display);font-weight:700;font-size:14px;letter-spacing:.03em;text-transform:uppercase;padding:13px 26px;display:inline-flex;align-items:center;gap:26px}
+.ribbon span::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--navy-deep)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* ---------- Secciones ---------- */
+section.block{padding-block:72px}
+.head{display:grid;gap:12px;max-width:64ch;margin-bottom:34px}
+.head h2{font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--navy)}
+.head p{color:var(--muted);font-size:17px}
+
+/* Promos */
+.promos{background:var(--sky)}
+.track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 18px;scrollbar-width:thin;overscroll-behavior-x:contain;align-items:flex-start}
+.promo{flex:0 0 min(78%,320px);scroll-snap-align:start;background:#fff;border:0;padding:0;cursor:pointer;text-align:left;border-radius:var(--radius);position:relative;overflow:hidden;box-shadow:0 14px 34px -16px rgba(0,14,74,.5);transition:transform .2s ease;display:flex;flex-direction:column}
+.promo:hover{transform:translateY(-4px)}
+.promo:focus-visible{outline:3px solid var(--lav);outline-offset:3px}
+.promo img{width:100%;aspect-ratio:4/5;object-fit:contain;object-position:center;background:linear-gradient(160deg,#F3E6FB,#E6ECFB 55%,#EEF5E4)}
+.promo .pc{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px;font-family:var(--font-display);font-weight:700;font-size:14.5px;color:var(--navy)}
+.promo .pc i{font-style:normal;color:var(--blue-600);font-size:13px;white-space:nowrap}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:6px}
+.dots{display:flex;gap:8px}
+.dots i{width:9px;height:9px;border-radius:50%;background:var(--line);transition:all .2s}
+.dots i.on{background:var(--navy);width:24px;border-radius:99px}
+.arrows{display:flex;gap:8px}
+.arrow{width:46px;height:46px;border-radius:50%;border:0;cursor:pointer;background:#fff;color:var(--navy);box-shadow:0 4px 14px -6px rgba(0,14,74,.4);display:grid;place-items:center}
+.arrow:hover{background:var(--navy);color:#fff}
+@media(min-width:900px){
+  .track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;padding-bottom:6px}
+  .promo{flex:none}
+  .controls{display:none}
+}
+.promo-note{margin-top:16px;color:var(--muted);font-size:13.5px}
+
+/* Planes */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.chip{border:0;cursor:pointer;font:inherit;font-weight:700;font-size:14.5px;padding:10px 18px;border-radius:99px;background:var(--sky);color:var(--navy);min-height:44px;transition:all .15s}
+.chip:hover{background:#E4E0F8}
+.chip[aria-pressed=true]{background:var(--navy);color:#fff}
+.lines{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:680px){.lines{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1040px){.lines{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.line{display:flex;flex-direction:column;background:#fff;border-radius:var(--radius);border:1.5px solid var(--line);overflow:hidden;transition:transform .2s,box-shadow .2s,opacity .25s,border-color .2s}
+.line:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--lav)}
+.line[data-dim=true]{opacity:.38}
+.line .cap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 22px;color:#fff;background:linear-gradient(120deg,var(--navy),var(--blue-600))}
+.line[data-k=vos] .cap{background:var(--vos);color:var(--navy-deep)}
+.line[data-k=genesis] .cap{background:linear-gradient(120deg,#22308F,#4C63D6)}
+.line[data-k=global] .cap{background:linear-gradient(120deg,var(--navy),#2F6FCF 70%,#62A9F4)}
+.line[data-k=clasico] .cap{background:linear-gradient(120deg,var(--navy-deep),var(--navy) 60%,#4B49B8)}
+.line[data-k=premium] .cap{background:linear-gradient(120deg,#0A0F3A,#2A2A7A 55%,var(--lav))}
+.line .cap h3{font-size:22px;font-weight:800}
+.line .cap h3 small{display:block;font-family:var(--font-body);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.82;margin-bottom:4px}
+.line .cap .crt{flex:none;font-family:var(--font-display);font-weight:700;font-size:12px;padding:6px 10px;border-radius:99px;background:rgba(255,255,255,.18);box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);white-space:nowrap}
+.line[data-k=vos] .cap .crt{background:rgba(255,255,255,.55);box-shadow:none}
+.line .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:14px;flex:1}
+.line .for{font-weight:700;color:var(--navy);font-size:15px}
+.line ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;color:var(--muted);font-size:15px}
+.line li{display:flex;gap:10px;align-items:flex-start}
+.line li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--lav);margin-top:9px}
+.line .btn{margin-top:auto}
+.help{display:flex;flex-direction:column;justify-content:space-between;gap:18px;border-radius:var(--radius);padding:26px 24px;background:linear-gradient(150deg,var(--navy-deep),var(--navy) 60%,#3B3FA8);color:#fff;text-decoration:none;position:relative;overflow:hidden}
+.help::after{content:"";position:absolute;right:-50px;bottom:-60px;width:220px;height:240px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='8 6 14 19.4'%3E%3Cpath fill='%23fff' d='M16.0729 18.4585C15.371 19.1973 13.6911 21.3542 14.435 25.209C14.435 25.209 8.27952 20.5558 13.1571 14.3892C13.1571 14.3892 16.2709 10.6296 14.387 6.6377C14.387 6.6377 21.7005 12.1072 16.3429 18.1368C16.3489 18.1308 16.2529 18.2679 16.0729 18.4585Z'/%3E%3C/svg%3E") center/contain no-repeat;opacity:.08}
+.help h3{font-size:24px;font-weight:800}
+.help p{color:#D5DBF7}
+.help .btn{align-self:flex-start;position:relative;z-index:1}
+.note{margin-top:22px;color:var(--muted);font-size:14px}
+
+/* Omint Vos */
+.vos{background:linear-gradient(180deg,#fff 0%,var(--sky) 100%)}
+.vos .grid{display:grid;gap:34px;align-items:center}
+@media(min-width:900px){.vos .grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:64px}}
+.vos .pic{border-radius:26px;overflow:hidden;box-shadow:var(--shadow)}
+.vos .pic img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.vos h2{font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--navy)}
+.vos h2 em{font-style:normal;background:linear-gradient(90deg,#C25BD6,#5B6FE6 60%,#3C9BEA);-webkit-background-clip:text;background-clip:text;color:transparent}
+.vos .lead2{color:var(--muted);font-size:17px;margin-top:12px}
+.vos ul{list-style:none;margin:20px 0 26px;padding:0;display:grid;gap:10px}
+.vos li{display:flex;gap:12px;font-weight:500;align-items:center;padding:12px 14px;border-radius:14px;background:#fff;border:1.5px solid var(--line)}
+.vos li b{display:inline-block;width:10px;height:10px;border-radius:50%;flex:none}
+.vos .fine{font-size:13px;color:var(--muted);margin-top:14px}
+
+/* Clínicas + cartilla */
+.clins{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:900px){.clins{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.cl{background:#fff;border:1.5px solid var(--line);border-radius:22px;padding:24px 22px;display:flex;flex-direction:column;gap:18px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.cl:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--lav)}
+.cl-top{display:flex;gap:16px;align-items:center}
+.cl-logo{width:84px;height:84px;flex:none}
+.cl h3{font-size:20px;font-weight:800;color:var(--navy)}
+.cl-addr{color:var(--ink);font-weight:600;font-size:14.5px;margin-top:4px;line-height:1.4}
+.cl-addr span{color:var(--muted);font-weight:500}
+.cl ul{list-style:none;margin:0;padding:16px 0 0;border-top:1px solid var(--line);display:grid;gap:10px;color:var(--muted);font-size:15px}
+.cl li{display:flex;gap:10px;align-items:flex-start}
+.cl li::before{content:"";flex:none;width:7px;height:7px;border-radius:50%;background:var(--lav);margin-top:9px}
+.more{display:grid;gap:14px;margin-top:20px}
+@media(min-width:900px){.more{grid-template-columns:minmax(0,.9fr) minmax(0,1.6fr);align-items:center}}
+.stat{display:flex;gap:14px;align-items:center;background:var(--sky);border-radius:18px;padding:16px 20px}
+.stat b{font-family:var(--font-display);font-weight:800;font-size:34px;color:var(--navy);flex:none}
+.stat span{color:var(--muted);font-size:14.5px;line-height:1.4}
+.stat small{display:block;font-size:12px;opacity:.8;margin-top:2px}
+.also{color:var(--muted);font-size:14.5px;line-height:1.6}
+.also b{color:var(--navy)}
+
+.own{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:640px){.own{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.own{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.clin{display:flex;gap:14px;align-items:flex-start;padding:18px;border-radius:var(--radius);border:1.5px solid var(--line);background:#fff}
+.clin svg{flex:none;width:34px;height:34px}
+.clin b{display:block;font-family:var(--font-display);font-weight:700;color:var(--navy);font-size:15.5px;line-height:1.25}
+.clin span{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+.cart{margin-top:44px;background:var(--navy);color:#fff;border-radius:26px;padding:28px 22px;position:relative;overflow:hidden}
+@media(min-width:900px){.cart{padding:38px 40px}}
+.cart::after{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:300px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='8 6 14 19.4'%3E%3Cpath fill='%23fff' d='M16.0729 18.4585C15.371 19.1973 13.6911 21.3542 14.435 25.209C14.435 25.209 8.27952 20.5558 13.1571 14.3892C13.1571 14.3892 16.2709 10.6296 14.387 6.6377C14.387 6.6377 21.7005 12.1072 16.3429 18.1368C16.3489 18.1308 16.2529 18.2679 16.0729 18.4585Z'/%3E%3C/svg%3E") center/contain no-repeat;opacity:.07}
+.cart h3{font-size:clamp(22px,3vw,28px);font-weight:800;position:relative;z-index:1}
+.cart p.d{color:#C9CFF2;margin-top:8px;position:relative;z-index:1}
+.ztabs{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 18px;position:relative;z-index:1}
+.ztab{border:0;cursor:pointer;font:inherit;font-weight:700;font-size:14px;padding:9px 16px;border-radius:99px;background:rgba(255,255,255,.1);color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);min-height:42px}
+.ztab[aria-selected=true]{background:#fff;color:var(--navy);box-shadow:none}
+.zlist{list-style:none;margin:0;padding:0;display:grid;gap:10px 22px;grid-template-columns:minmax(0,1fr);position:relative;z-index:1}
+@media(min-width:640px){.zlist{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.zlist{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.zlist li{display:flex;gap:10px;align-items:flex-start;color:#E6E9FB;font-weight:500}
+.zlist li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--lav-2);margin-top:8px}
+.cart .small{color:#A9B2E6;margin-top:18px;position:relative;z-index:1}
+.cart .btn{margin-top:20px;position:relative;z-index:1}
+
+/* App */
+.app .grid{display:grid;gap:30px;align-items:center}
+@media(min-width:900px){.app .grid{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:60px}}
+.app .pic{border-radius:26px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:3/2}
+.app .pic img{width:100%;height:100%;object-fit:cover;object-position:40% 30%}
+.feats{display:grid;gap:12px;grid-template-columns:minmax(0,1fr);margin-top:22px}
+@media(min-width:520px){.feats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.feat{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-radius:14px;background:var(--sky)}
+.feat svg{flex:none;width:26px;height:26px}
+.feat b{display:block;font-family:var(--font-display);color:var(--navy);font-size:15px}
+.feat span{color:var(--muted);font-size:14px}
+
+/* Pasos + por qué */
+.how{display:grid;gap:18px;counter-reset:s}
+@media(min-width:820px){.how{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.step{position:relative;border-radius:var(--radius);background:var(--sky);padding:26px 24px}
+.step::before{counter-increment:s;content:counter(s);font-family:var(--font-display);font-weight:800;font-size:44px;line-height:1;color:var(--lav)}
+.step h3{font-size:20px;font-weight:800;color:var(--navy);margin:14px 0 8px}
+.step p{color:var(--muted)}
+.why{margin-top:30px;display:grid;gap:14px}
+@media(min-width:820px){.why{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.why div{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border-radius:var(--radius);border:1.5px solid var(--line)}
+.why svg{flex:none;width:28px;height:28px}
+.why b{display:block;font-family:var(--font-display);color:var(--navy);margin-bottom:2px}
+.why span{color:var(--muted);font-size:15px}
+
+/* FAQ */
+.faq{background:var(--sky)}
+.faq .wrap{max-width:860px}
+details{background:#fff;border-radius:16px;margin-bottom:12px;border:1.5px solid var(--line)}
+details[open]{border-color:var(--lav)}
+summary{cursor:pointer;list-style:none;padding:18px 22px;font-family:var(--font-display);font-weight:700;font-size:17px;color:var(--navy);display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:26px;line-height:1;color:var(--lav);flex:none;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 22px 20px;color:var(--muted)}
+
+/* Cierre + footer */
+.final{background:linear-gradient(135deg,var(--navy-deep),var(--navy) 55%,#2B2F9E);color:#fff;text-align:center;position:relative;overflow:hidden}
+.final::before{content:"";position:absolute;left:50%;top:50%;width:560px;height:650px;transform:translate(-50%,-50%);background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='8 6 14 19.4'%3E%3Cpath fill='%23fff' d='M16.0729 18.4585C15.371 19.1973 13.6911 21.3542 14.435 25.209C14.435 25.209 8.27952 20.5558 13.1571 14.3892C13.1571 14.3892 16.2709 10.6296 14.387 6.6377C14.387 6.6377 21.7005 12.1072 16.3429 18.1368C16.3489 18.1308 16.2529 18.2679 16.0729 18.4585Z'/%3E%3C/svg%3E") center/contain no-repeat;opacity:.05}
+.final .wrap{position:relative;display:grid;gap:20px;justify-items:center;padding-block:76px}
+.final h2{font-size:clamp(30px,5vw,46px);font-weight:800;max-width:20ch}
+.final p{color:#D5DBF7;max-width:48ch;font-size:18px}
+.social{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.social a{display:inline-flex;align-items:center;gap:9px;padding:10px 18px;border-radius:99px;text-decoration:none;font-weight:600;font-size:14.5px;background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);min-height:44px}
+.social a:hover{background:rgba(255,255,255,.2)}
+.social svg{width:20px;height:20px}
+footer{background:var(--navy-deep);color:#B4BCE6;font-size:13.5px}
+footer .wrap{display:grid;gap:22px;padding-block:44px 120px}
+footer img{height:42px;width:auto}
+footer .legal{max-width:95ch;display:grid;gap:10px;line-height:1.6}
+footer a{color:#fff}
+
+/* WhatsApp flotante */
+.fab{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-family:var(--font-display);font-weight:700;font-size:15px;padding:14px 20px;border-radius:99px;box-shadow:0 12px 30px -8px rgba(0,0,0,.45);min-height:52px}
+.fab:hover{background:var(--wa-hover)}
+.fab svg{width:24px;height:24px}
+@media(max-width:480px){.fab span{display:none}.fab{padding:14px}}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ribbon div{animation:none}
+  *{transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Tu opción en coberturas, planes Omint. Inicio">
+      <img class="logo" src="img/logo-h.png" alt="Tu opción en coberturas" width="320" height="80">
+      <span class="sep" aria-hidden="true"></span>
+      <img class="om" src="img/omint-logo.svg" alt="Omint" width="119" height="32">
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#promos">Promociones</a>
+      <a href="#planes">Planes</a>
+      <a href="#omintvos">Omint Vos</a>
+      <a href="#clinicas">Clínicas</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+    <a class="btn btn-navy" href="#cotizar">Cotizar</a>
+  </div>
+</header>
+
+<main id="inicio">
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div class="copy">
+      <span class="tag">Asesoramiento en planes <img src="img/omint-logo-white.svg" alt="Omint" width="119" height="32"></span>
+      <h1>Tu plan Omint, con sus <em>clínicas propias</em> y la cartilla para tu zona</h1>
+      <p class="lead">Completá tus datos y te mandamos por WhatsApp la cotización de Omint que corresponde a tu edad, tu zona y cómo aportás.</p>
+      <ul class="checks">
+        <li><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#C9C2F2"/><path d="M7 12.5l3.2 3.2L17 8.8" stroke="#000E4A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Clínica del Sol, Clínica Bazterrica y Clínica Santa Isabel, del Grupo Omint</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#C9C2F2"/><path d="M7 12.5l3.2 3.2L17 8.8" stroke="#000E4A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Omint Vos: precio preferencial para nuevos socios de 18 a 35 años</li>
+        <li><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#C9C2F2"/><path d="M7 12.5l3.2 3.2L17 8.8" stroke="#000E4A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Opciones con recibo de sueldo, monotributo, autónomos y particulares</li>
+      </ul>
+    </div>
+
+    <div class="formcol" id="cotizar">
+      <div class="card">
+        <div id="formView">
+          <h2>Cotizá tu plan Omint</h2>
+          <p class="sub">Son dos pasos cortos. Con esto te respondemos con opciones para vos.</p>
+          <div class="steps" aria-live="polite"><span id="stepLabel">Paso 1 de 2</span><div class="bar"><i id="bar"></i></div></div>
+          <div class="chosen" id="chosen"></div>
+
+          <form id="lead" novalidate>
+            <div style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>No completar este campo<input type="text" id="hp" name="hp" tabindex="-1" autocomplete="off"></label></div>
+            <div id="s1">
+              <div class="field">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Ej: Lucía Fernández" maxlength="80">
+                <div class="err" id="e-nombre" role="alert"></div>
+              </div>
+              <div class="field">
+                <label for="tel">WhatsApp o teléfono</label>
+                <input type="tel" id="tel" name="tel" autocomplete="tel" inputmode="tel" placeholder="Ej: 11 2345 6789" maxlength="24">
+                <div class="err" id="e-tel" role="alert"></div>
+              </div>
+              <div class="field">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" autocomplete="email" inputmode="email" placeholder="tunombre@mail.com" maxlength="90">
+                <div class="err" id="e-mail" role="alert"></div>
+              </div>
+              <div class="actions"><button type="button" class="btn btn-navy" id="next">Continuar</button></div>
+            </div>
+
+            <div id="s2" hidden>
+              <fieldset class="field" id="f-sit">
+                <legend>¿Cómo aportarías?</legend>
+                <div class="pills">
+                  <label class="pill"><input type="radio" name="sit" value="Recibo de sueldo"><span>Recibo de sueldo</span></label>
+                  <label class="pill"><input type="radio" name="sit" value="Monotributo"><span>Monotributo</span></label>
+                  <label class="pill"><input type="radio" name="sit" value="Autónomo"><span>Autónomo</span></label>
+                  <label class="pill"><input type="radio" name="sit" value="Particular"><span>Particular</span></label>
+                  <label class="pill"><input type="radio" name="sit" value="Empresa"><span>Empresa</span></label>
+                </div>
+                <div class="err" id="e-sit" role="alert"></div>
+              </fieldset>
+              <fieldset class="field" id="f-who">
+                <legend>¿Para quién es el plan?</legend>
+                <div class="pills">
+                  <label class="pill"><input type="radio" name="who" value="Solo/a"><span>Solo/a</span></label>
+                  <label class="pill"><input type="radio" name="who" value="Con mi pareja"><span>Con mi pareja</span></label>
+                  <label class="pill"><input type="radio" name="who" value="Familia con hijos"><span>Familia con hijos</span></label>
+                  <label class="pill"><input type="radio" name="who" value="Otro grupo familiar"><span>Otro grupo</span></label>
+                </div>
+                <div class="err" id="e-who" role="alert"></div>
+              </fieldset>
+              <div class="two">
+                <div class="field">
+                  <label for="edad">Tu edad</label>
+                  <select id="edad" name="edad">
+                    <option value="">Elegí</option>
+                    <option>18 a 25</option><option>26 a 35</option><option>36 a 45</option><option>46 a 59</option><option>60 o más</option>
+                  </select>
+                  <div class="err" id="e-edad" role="alert"></div>
+                </div>
+                <div class="field">
+                  <label for="zona">Zona</label>
+                  <select id="zona" name="zona">
+                    <option value="">Elegí</option>
+                    <option>CABA</option><option>GBA Norte</option><option>GBA Oeste</option><option>GBA Sur</option><option>La Plata</option><option>Otra zona</option>
+                  </select>
+                  <div class="err" id="e-zona" role="alert"></div>
+                </div>
+                <div class="field">
+                  <label for="cob">Cobertura actual</label>
+                  <select id="cob" name="cob">
+                    <option value="">Elegí</option>
+                    <option>No tengo</option><option>Obra social</option><option>Prepaga</option>
+                  </select>
+                  <div class="err" id="e-cob" role="alert"></div>
+                </div>
+                <div class="field">
+                  <label for="interes">Plan de interés</label>
+                  <select id="interes" name="interes">
+                    <option value="">Ayudame a elegir</option>
+                    <option>Omint Vos</option><option>Génesis</option><option>Global</option><option>Clásico</option><option>Premium</option><option>Empresas</option>
+                  </select>
+                </div>
+              </div>
+              <label class="consent"><input type="checkbox" id="ok" name="ok"><span>Acepto que me contacten por WhatsApp, teléfono o email con mi cotización y el uso de mis datos para ese fin.</span></label>
+              <div class="err" id="e-ok" role="alert"></div>
+              <div class="actions">
+                <button type="button" class="btn btn-ghost" id="back">Volver</button>
+                <button type="submit" class="btn btn-wa"><svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg>Cotizar</button>
+              </div>
+            </div>
+          </form>
+          <p class="direct">¿Preferís hablar directo? <a id="waDirect" href="#cotizar" data-wa target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg>Escribinos por WhatsApp</a></p>
+        </div>
+
+        <div id="doneView" class="ok" hidden>
+          <div class="mark"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#001D85" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h2 id="doneTitle">Último paso</h2>
+          <p class="sub" id="doneLead">Tocá el botón para enviarnos tu consulta por WhatsApp. Ya viene escrita con tus datos.</p>
+          <dl id="summary"></dl>
+          <a class="btn btn-wa btn-block" id="waSend" href="#" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg><span id="waSendLabel">Enviar por WhatsApp</span></a>
+          <button type="button" class="btn btn-ghost btn-block" id="edit">Corregir mis datos</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="visual">
+      <img src="img/omint-hero-familia.jpg" alt="Familia sonriendo en el sillón frente a una notebook" width="914" height="356">
+      <div class="stairs">
+        <div class="stair"><b>Omint Vos</b><span>18 a 35 años</span></div>
+        <div class="stair"><b>Médico Online</b><span>por videollamada</span></div>
+        <div class="stair"><b>Smart Card</b><span>credencial digital</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ribbon" aria-hidden="true">
+  <div>
+    <span>Omint Vos: precio preferencial de 18 a 35 años</span><span>Salud mental sin límite de sesiones en Omint Vos</span><span>Asistencia al viajero sin cargo en Omint Vos</span><span>Clínicas propias en CABA y San Isidro</span><span>Omint Mascotas: 15% off los primeros 6 meses</span>
+    <span>Omint Vos: precio preferencial de 18 a 35 años</span><span>Salud mental sin límite de sesiones en Omint Vos</span><span>Asistencia al viajero sin cargo en Omint Vos</span><span>Clínicas propias en CABA y San Isidro</span><span>Omint Mascotas: 15% off los primeros 6 meses</span>
+  </div>
+</div>
+
+<!-- ================= PROMOS ================= -->
+<section class="block promos" id="promos">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Promociones Omint</span>
+      <h2>Lo que hoy suma Omint para nuevos socios</h2>
+      <p>Tocá la promo que te interesa y la dejamos anotada en tu consulta.</p>
+    </div>
+
+    <div class="scroller">
+      <div class="track" id="track" tabindex="0" aria-label="Promociones, deslizá para ver más">
+        <button class="promo" type="button" data-promo="Omint Vos con módulo mascotas (18 a 35 años, nuevos socios)">
+          <img src="img/omint-vos-promo.jpg" alt="Omint Vos: si tenés entre 18 y 35 años, aprovechá un plan médico a precio ganga. Podés sumar el módulo mascotas (exclusivo AMBA). Incluye un par de anteojos o lentes de contacto al año, asistencia al viajero sin cargo, salud mental sin límite de sesiones y consultas por videollamada en más de 10 especialidades" width="860" height="860" loading="lazy">
+          <span class="pc">Omint Vos + módulo mascotas <i>Cotizar →</i></span>
+        </button>
+        <button class="promo" type="button" data-promo="Omint Vos: precio preferencial de 18 a 35 años">
+          <img src="img/omint-vos-joven.jpg" alt="Omint Vos, viví, nosotros te cuidamos. Plan médico para personas de 18 a 35 años con anteojos o lentes de contacto al año, salud mental sin límite de sesiones, asistencia al viajero y consultas por videollamada" width="718" height="1073" loading="lazy">
+          <span class="pc">Omint Vos, de 18 a 35 años <i>Cotizar →</i></span>
+        </button>
+        <button class="promo" type="button" data-promo="Omint Mascotas: 15% off los primeros 6 meses (AMBA)">
+          <img src="img/omint-mascotas.jpg" alt="Omint Mascotas: 15% de descuento durante los primeros 6 meses. Exclusivo AMBA" width="860" height="1075" loading="lazy">
+          <span class="pc">Omint Mascotas: 15% off <i>Cotizar →</i></span>
+        </button>
+      </div>
+      <div class="controls">
+        <div class="dots" id="dots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+        <div class="arrows">
+          <button class="arrow" type="button" id="prev" aria-label="Promoción anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <button class="arrow" type="button" id="nextp" aria-label="Promoción siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <p class="promo-note">Omint Vos es para nuevos socios de 18 a 35 años. Omint Mascotas es un plan veterinario para socios de Omint que viven en AMBA. Las promociones están sujetas a las condiciones vigentes de Omint.</p>
+  </div>
+</section>
+
+<!-- ================= PLANES ================= -->
+<section class="block" id="planes">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Planes Omint</span>
+      <h2>¿Qué plan de Omint va con vos?</h2>
+      <p>Elegí cómo es tu caso y resaltamos los planes que mejor encajan. Después te cotizamos el que prefieras.</p>
+    </div>
+
+    <div class="chips" role="group" aria-label="Filtrar planes">
+      <button class="chip" type="button" data-f="all" aria-pressed="true">Todos</button>
+      <button class="chip" type="button" data-f="joven" aria-pressed="false">Tengo menos de 35</button>
+      <button class="chip" type="button" data-f="familia" aria-pressed="false">Para mi familia</button>
+      <button class="chip" type="button" data-f="premium" aria-pressed="false">Máxima cobertura</button>
+      <button class="chip" type="button" data-f="empresa" aria-pressed="false">Para mi empresa</button>
+    </div>
+
+    <div class="lines" id="lines">
+      <article class="line" data-k="vos" data-for="joven">
+        <div class="cap"><h3><small>Plan</small>Omint Vos</h3><span class="crt">Cartilla 4500</span></div>
+        <div class="body">
+          <p class="for">Nuevos socios de 18 a 35 años, con precio preferencial</p>
+          <ul><li>Un par de anteojos o lentes de contacto al año</li><li>Salud mental sin límite de sesiones</li><li>Videollamada en más de 10 especialidades y asistencia al viajero sin cargo</li></ul>
+          <button class="btn btn-navy pick" type="button" data-line="Omint Vos">Cotizar Omint Vos</button>
+        </div>
+      </article>
+
+      <article class="line" data-k="genesis" data-for="joven familia">
+        <div class="cap"><h3><small>Línea</small>Génesis</h3><span class="crt">Cartillas 1500 · 2500 · 2600</span></div>
+        <div class="body">
+          <p class="for">La línea de entrada a Omint, con cobertura nacional</p>
+          <ul><li>Reintegro con tope en consultas fuera de cartilla, según plan</li><li>Reintegro en prestaciones odontológicas</li><li>Acceso a programas de prevención y al Club de descuentos</li></ul>
+          <button class="btn btn-navy pick" type="button" data-line="Génesis">Cotizar Génesis</button>
+        </div>
+      </article>
+
+      <article class="line" data-k="global" data-for="familia">
+        <div class="cap"><h3><small>Línea</small>Global</h3><span class="crt">Cartillas 4021 · 4500</span></div>
+        <div class="body">
+          <p class="for">Cobertura médica nacional e internacional</p>
+          <ul><li>Reintegros con tope en internación, honorarios y estudios</li><li>Odontología, ortodoncia, prótesis e implantes</li><li>Maternidad y salud mental, según plan</li></ul>
+          <button class="btn btn-navy pick" type="button" data-line="Global">Cotizar Global</button>
+        </div>
+      </article>
+
+      <article class="line" data-k="clasico" data-for="familia premium">
+        <div class="cap"><h3><small>Línea</small>Clásico</h3><span class="crt">Cartilla 6500</span></div>
+        <div class="body">
+          <p class="for">Cobertura integral con una cartilla amplia</p>
+          <ul><li>Reintegros en óptica, cirugía estética y ecografía 3D/4D</li><li>Maternidad, salud mental y tratamiento de alergia</li><li>Emergencias y urgencias en Punta del Este</li></ul>
+          <button class="btn btn-navy pick" type="button" data-line="Clásico">Cotizar Clásico</button>
+        </div>
+      </article>
+
+      <article class="line" data-k="premium" data-for="premium familia">
+        <div class="cap"><h3><small>Línea</small>Premium</h3><span class="crt">Cartilla 8500</span></div>
+        <div class="body">
+          <p class="for">La cobertura más completa de Omint</p>
+          <ul><li>Asistencia al viajero de Omint Assistance hasta €30.000, según cobertura</li><li>Fertilización asistida y blanqueamiento dental, según cobertura</li><li>Traslados por internación y medicamentos fuera de la red en horario nocturno</li></ul>
+          <button class="btn btn-navy pick" type="button" data-line="Premium">Cotizar Premium</button>
+        </div>
+      </article>
+
+      <a class="help" id="waElegir" href="#cotizar" data-wa data-for="joven familia premium empresa" target="_blank" rel="noopener">
+        <div>
+          <span class="eyebrow" style="color:var(--lav-2)">¿No sabés cuál elegir?</span>
+          <h3 style="margin-top:10px">Te ayudamos a comparar los planes de Omint</h3>
+          <p style="margin-top:10px">Contanos tu caso por WhatsApp y te recomendamos el plan y la cartilla que mejor te quedan. También cotizamos planes para empresas.</p>
+        </div>
+        <span class="btn btn-wa"><svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg>Hablar con un asesor</span>
+      </a>
+    </div>
+    <p class="note">Las prestaciones por reintegro tienen tope y varían según el plan, la edad y la zona. Te confirmamos el detalle exacto cuando cotizamos.</p>
+  </div>
+</section>
+
+<!-- ================= OMINT VOS ================= -->
+<section class="block vos" id="omintvos">
+  <div class="wrap grid">
+    <div class="pic"><img src="img/omint-vos.jpg" alt="Omint Vos: plan médico a precio preferencial para personas de 18 a 35 años, con módulo mascotas exclusivo AMBA" width="900" height="900" loading="lazy"></div>
+    <div>
+      <span class="eyebrow" style="color:#9B4FC0">Omint Vos · 18 a 35 años</span>
+      <h2 style="margin-top:12px"><em>Omint Vos</em>, el plan joven de Omint</h2>
+      <p class="lead2">Para nuevos socios de entre 18 y 35 años, con precio preferencial y gestiones desde la App Omint. Usa la cartilla 4500.</p>
+      <ul>
+        <li><b style="background:#C4C93A"></b>Un par de anteojos o lentes de contacto al año</li>
+        <li><b style="background:#E28BF0"></b>Salud mental sin límite de sesiones</li>
+        <li><b style="background:#62A9F4"></b>Consultas por videollamada en más de 10 especialidades</li>
+        <li><b style="background:#8980C0"></b>Asistencia al viajero Omint sin cargo</li>
+        <li><b style="background:#B5D58F"></b>Podés sumar el módulo mascotas, exclusivo AMBA</li>
+      </ul>
+      <button class="btn btn-navy pick" type="button" data-line="Omint Vos">Quiero cotizar Omint Vos</button>
+      <p class="fine">Prestaciones por reintegro con tope, según cobertura. Promoción válida según las condiciones aplicables a nuevos ingresos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLÍNICAS Y CARTILLA ================= -->
+<section class="block" id="clinicas">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Clínicas y cartilla</span>
+      <h2>Las clínicas propias de Omint</h2>
+      <p>Además de su cartilla de prestadores, Omint tiene sus propias clínicas en CABA, con guardia las 24 horas.</p>
+    </div>
+    <div class="clins">
+      <article class="cl">
+        <div class="cl-top"><img class="cl-logo" src="img/logo-clinica-del-sol.png" alt="Logo de Clínica del Sol" width="220" height="220" loading="lazy"><div><h3>Clínica del Sol</h3><p class="cl-addr">Av. Coronel Díaz 2211, CABA<br><span>Palermo</span></p></div></div>
+        <ul><li>Centro Integral de la Mujer: todos los estudios ginecológicos en un solo día</li><li>Estudios prequirúrgicos en una sola consulta</li><li>Centro Deportológico Pelegri para aptos físicos</li><li>Programa de detección temprana de cáncer de pulmón</li></ul>
+      </article>
+      <article class="cl">
+        <div class="cl-top"><img class="cl-logo" src="img/logo-clinica-bazterrica.png" alt="Logo de Clínica Bazterrica" width="220" height="220" loading="lazy"><div><h3>Clínica Bazterrica</h3><p class="cl-addr">Billinghurst 2072, CABA<br><span>Esquina Juncal, Palermo</span></p></div></div>
+        <ul><li>Guardia 24 horas con clínica médica, pediatría, traumatología y obstetricia</li><li>Diagnóstico por imágenes sin turno, con orden médica</li><li>Cirugía oftalmológica junto a Fundación Zambrano</li><li>Pack Primer Latido: acompañamiento antes, durante y después del nacimiento</li></ul>
+      </article>
+      <article class="cl">
+        <div class="cl-top"><img class="cl-logo" src="img/logo-clinica-santa-isabel.png" alt="Logo de Clínica Santa Isabel" width="220" height="220" loading="lazy"><div><h3>Clínica Santa Isabel</h3><p class="cl-addr">Av. Directorio 2037, CABA<br><span>Flores</span></p></div></div>
+        <ul><li>Más de 65 años de trayectoria</li><li>Guardia 24 horas con clínica médica, pediatría y traumatología</li><li>Guardia ginecológica de 8 a 20 horas</li><li>Oftalmología con Fundación Zambrano y neurocirugía</li></ul>
+      </article>
+    </div>
+    <div class="more">
+      <p class="stat"><b>+95%</b><span>de los pacientes que se internaron en las clínicas del Grupo Omint en 2025 quedaron muy satisfechos. <small>Mediciones Grupo Omint 2025</small></span></p>
+      <p class="also"><b>Además, centros propios:</b> Centro Médico Bazterrica (Tte. Gral. J. D. Perón 1739, CABA) · Centro Médico Santa Isabel (Av. Rivadavia 6044, Caballito) · Centro Médico Santa Rita (Av. Blanco Escalada 156, San Isidro) · Clínica Odontológica Omint (Ayacucho 1683, CABA)</p>
+    </div>
+
+    <div class="cart">
+      <span class="eyebrow" style="color:var(--lav-2)">Cartilla por zona</span>
+      <h3 style="margin-top:10px">Algunos sanatorios de la cartilla de Omint</h3>
+      <p class="d">Elegí tu zona. La cartilla cambia según el plan: los planes más altos suman más prestadores.</p>
+      <div class="ztabs" role="tablist" aria-label="Zona">
+        <button class="ztab" type="button" role="tab" aria-selected="true" aria-controls="z-caba" id="t-caba">CABA</button>
+        <button class="ztab" type="button" role="tab" aria-selected="false" aria-controls="z-norte" id="t-norte">Zona Norte</button>
+        <button class="ztab" type="button" role="tab" aria-selected="false" aria-controls="z-oeste" id="t-oeste">Zona Oeste</button>
+        <button class="ztab" type="button" role="tab" aria-selected="false" aria-controls="z-sur" id="t-sur">Zona Sur</button>
+      </div>
+      <ul class="zlist" id="z-caba" role="tabpanel" aria-labelledby="t-caba">
+        <li>Hospital Británico</li><li>Fundación Favaloro</li><li>FLENI</li><li>C.E.M.I.C.</li><li>Alexander Fleming</li><li>Sanatorio Anchorena</li><li>Sanatorio Mater Dei</li><li>Sanatorio Otamendi</li><li>Sanatorio Adventista de Belgrano</li><li>Hospital Alemán</li><li>Sanatorio de la Trinidad</li><li>Sanatorio Finochietto</li>
+      </ul>
+      <ul class="zlist" id="z-norte" role="tabpanel" aria-labelledby="t-norte" hidden>
+        <li>Hospital Universitario Austral (Pilar)</li><li>Sanatorio Las Lomas (San Isidro)</li><li>Sanatorio Trinidad San Isidro</li><li>Sanatorio San Lucas (San Isidro)</li><li>Clínica Olivos</li><li>Hospital Privado Modelo</li><li>Clínica Privada San Fernando</li><li>Clínica Nuestra Señora de Fátima</li><li>Centro Médico Santa Rita (propio)</li>
+      </ul>
+      <ul class="zlist" id="z-oeste" role="tabpanel" aria-labelledby="t-oeste" hidden>
+        <li>Sanatorio Trinidad Ramos Mejía</li><li>Clínica Bessone</li><li>Hospital Privado Mariano Moreno</li><li>Sanatorio del Oeste Ituzaingó</li><li>Clínica Modelo de Morón</li><li>Instituto Médico Constituyente</li><li>Casa Hospital San Juan de Dios</li><li>Sanatorio Modelo de Caseros</li><li>Corporación Médica General San Martín</li>
+      </ul>
+      <ul class="zlist" id="z-sur" role="tabpanel" aria-labelledby="t-sur" hidden>
+        <li>Clínica Boedo</li><li>Clínica Banfield</li><li>Instituto Médico Adrogué</li><li>Clínica Espora (Adrogué)</li><li>Sanatorio Bernal</li><li>Clínica Privada Monte Grande</li><li>Policlínico Lomas</li><li>Clínica Privada Ranelagh</li><li>Clínica Materno Infantil Quilmes</li>
+      </ul>
+      <p class="small">Listado orientativo: los prestadores dependen del plan y pueden cambiar. Al cotizar te confirmamos la cartilla vigente de tu plan.</p>
+      <button class="btn" type="button" id="cartillaBtn" style="background:#fff;color:var(--navy)">Cotizar con la cartilla de mi zona</button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APP ================= -->
+<section class="block app" id="app" style="padding-top:0">
+  <div class="wrap grid">
+    <div>
+      <span class="eyebrow">App Omint</span>
+      <h2 style="margin-top:12px;font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--navy)">Con Omint, todo es más simple</h2>
+      <p style="color:var(--muted);font-size:17px;margin-top:12px">Desde la web y la App Omint resolvés los servicios de tu plan en pocos pasos.</p>
+      <div class="feats">
+        <div class="feat"><svg viewBox="0 0 24 24" fill="none" stroke="#001D85" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><p><b>Autogestión</b><span>Autorizaciones y reintegros online</span></p></div>
+        <div class="feat"><svg viewBox="0 0 24 24" fill="none" stroke="#001D85" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="13" height="12" rx="2.5"/><path d="M15.5 10.5l6-3.5v10l-6-3.5"/></svg><p><b>Médico Online</b><span>Consultas por videollamada</span></p></div>
+        <div class="feat"><svg viewBox="0 0 24 24" fill="none" stroke="#001D85" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M6 10h6M6 14h4"/><circle cx="16.5" cy="12" r="2"/></svg><p><b>Smart Card</b><span>Tu credencial digital, siempre con vos</span></p></div>
+        <div class="feat"><svg viewBox="0 0 24 24" fill="none" stroke="#001D85" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"/></svg><p><b>Bienestar Online</b><span>Talleres de prevención</span></p></div>
+      </div>
+    </div>
+    <div class="pic"><img src="img/omint-app.jpg" alt="Hombre sonriendo mientras usa el celular frente a su notebook" width="572" height="370" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- ================= CÓMO FUNCIONA ================= -->
+<section class="block" id="como" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Cómo funciona</span>
+      <h2>De tu consulta a tu plan Omint, en tres pasos</h2>
+    </div>
+    <div class="how">
+      <div class="step"><h3>Completás el formulario</h3><p>Dos pasos cortos con tus datos y tu situación, para no hacerte repetir nada después.</p></div>
+      <div class="step"><h3>Te escribimos por WhatsApp</h3><p>Te enviamos la cotización con los planes y la cartilla que corresponden a tu caso.</p></div>
+      <div class="step"><h3>Te acompañamos en el alta</h3><p>Resolvemos tus dudas y te guiamos con los requisitos hasta que tu cobertura esté activa.</p></div>
+    </div>
+    <div class="why">
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="#2C47C2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 7v5l3.2 2"/></svg><p><b>Respuesta por WhatsApp</b><span>Hablás con una persona, sin call centers.</span></p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="#2C47C2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h6"/><circle cx="18" cy="16.5" r="3"/></svg><p><b>Opciones a tu medida</b><span>Filtramos por edad, zona y modalidad de ingreso.</span></p></div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="#2C47C2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.4-3.2 7.6-8 9-4.8-1.4-8-4.6-8-9V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg><p><b>Información clara</b><span>Te decimos qué incluye cada plan antes de que decidas.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="block faq" id="faq">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <h2>Lo que más nos preguntan</h2>
+    </div>
+    <details open><summary>¿Puedo ingresar si soy monotributista o autónomo?</summary><p>Sí. Hay opciones para quienes tienen recibo de sueldo, monotributo, son autónomos o ingresan como particulares. En el formulario nos contás cómo aportarías y te cotizamos según eso.</p></details>
+    <details><summary>¿Quiénes pueden contratar Omint Vos?</summary><p>Omint Vos es para nuevos socios de entre 18 y 35 años. Si tenés más edad, te cotizamos los planes Génesis, Global, Clásico o Premium según tu caso.</p></details>
+    <details><summary>¿Qué diferencia hay entre los planes?</summary><p>Cambian la cartilla de prestadores (del 1500 al 8500), los topes de reintegro y algunas prestaciones, como óptica, cirugía estética o asistencia al viajero. Te mostramos las diferencias antes de que elijas.</p></details>
+    <details><summary>¿Puedo afiliar a toda mi familia?</summary><p>Sí. Elegí &ldquo;Con mi pareja&rdquo; o &ldquo;Familia con hijos&rdquo; en el formulario y te armamos la cotización por integrante.</p></details>
+    <details><summary>¿Qué es Omint Mascotas?</summary><p>Es un plan veterinario para perros y gatos de socios de Omint que viven en AMBA. Si te interesa, lo sumamos a tu cotización.</p></details>
+    <details><summary>¿Tengo que dejar mi cobertura actual antes de pedir la cotización?</summary><p>No. Cotizar no te compromete a nada. Antes de tomar una decisión te explicamos las condiciones, incluidas las que dependen de tu cobertura actual.</p></details>
+    <details><summary>¿Ustedes son Omint?</summary><p>No. Somos asesores independientes en coberturas médicas. Te ayudamos a elegir y a hacer el alta de un plan de Omint, y las condiciones del plan las define Omint.</p></details>
+  </div>
+</section>
+
+<!-- ================= CIERRE ================= -->
+<section class="final">
+  <div class="wrap">
+    <h2>¿Hablamos por WhatsApp?</h2>
+    <p>Contanos qué necesitás y te respondemos con planes de Omint concretos para vos.</p>
+    <a class="btn btn-wa" id="waFinal" href="#cotizar" data-wa target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg>Escribinos por WhatsApp</a>
+    <div class="social">
+      <a href="https://www.instagram.com/tuopcion.encoberturas/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>@tuopcion.encoberturas</a>
+      <a href="https://www.facebook.com/profile.php?id=61594586745911" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.5-1.5h1.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"/></svg>Facebook</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo-h-white.png" alt="Tu opción en coberturas" width="320" height="80" loading="lazy">
+    <div class="legal">
+      <p><b style="color:#fff">Tu opción en coberturas</b> es un servicio de asesoramiento independiente. No somos Omint. Omint, Omint Vos, Omint Mascotas y sus logos son marcas de Omint S.A. de Servicios y se muestran con fines informativos.</p>
+      <p>Los planes, prestaciones, topes de reintegro, cartillas, promociones y requisitos de ingreso (edad, modalidad de aporte, zona) dependen de cada plan y de las condiciones vigentes de Omint. Confirmamos el detalle exacto al cotizar.</p>
+      <p>Omint S.A. de Servicios – R.N.E.M.P. N° 1336. Superintendencia de Servicios de Salud – Órgano de Control de Obras Sociales y Entidades de Medicina Prepaga – 0800-222-SALUD (72583) – <a href="https://www.sssalud.gob.ar" target="_blank" rel="noopener">www.sssalud.gob.ar</a></p>
+      <p>Tus datos se usan solo para enviarte la cotización que pedís.<span id="waShow"></span></p>
+    </div>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="#cotizar" data-wa target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2zm5.8 14.1c-.25.7-1.45 1.3-2 1.35-.52.05-1.17.07-1.9-.12-.44-.14-1-.32-1.73-.63-3.04-1.3-5-4.33-5.15-4.53-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.6-.37.8-.37l.57.01c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.32.38-.45.52-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.08 1.32 2.38 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42z"/></svg><span>WhatsApp</span></a>
+
+<script>
+(function(){
+  /* ================= CONFIGURACIÓN: editá solo estas líneas ================= */
+  var CONFIG = {
+    // Número de WhatsApp con código de país, solo dígitos (sin +, espacios ni guiones). Ej. Argentina: 54 9 + código de área + número
+    WA_NUMBER: "5491176093508",
+    // Texto del número que se muestra en el pie de página. Dejalo vacío ("") para no mostrar ningún número en la página
+    WA_DISPLAY: "+54 9 11 7609-3508",
+    // Mensaje que ya viene escrito en los botones generales de WhatsApp
+    WA_DEFAULT_MESSAGE: "Hola! Quiero cotizar un plan de Omint.",
+    // URL del webhook (n8n, GoHighLevel, etc.) que recibe cada consulta apenas se completa el formulario. Si está vacío, el contacto solo llega si la persona toca el botón de WhatsApp
+    LEAD_WEBHOOK: "https://numet.app.n8n.cloud/webhook/tuopcion-lead",
+    // Webhook entrante de GoHighLevel (sub-cuenta Tu Opción en Coberturas). Cada consulta se manda acá y a LEAD_WEBHOOK; dejá vacío el que no uses
+    GHL_WEBHOOK: "https://services.leadconnectorhq.com/hooks/tfNNUL1KcEPWAzRtrHHx/webhook-trigger/5e22ad05-c768-40f8-a1ea-5984a6a3f912"
+  };
+  /* ========================================================================== */
+  var WA = CONFIG.WA_NUMBER, LEAD_WEBHOOK = CONFIG.LEAD_WEBHOOK, GHL_WEBHOOK = CONFIG.GHL_WEBHOOK;
+  var ORIGEN = "landing-omint", MARCA = "Omint";
+  var $ = function(s){return document.querySelector(s)};
+  var $$ = function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+  var state = {promo:""};
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- Google Ads: conversiones ----------
+     Cuando crees las acciones de conversión de Omint en Google Ads, reemplazá las dos etiquetas.
+     Mientras empiecen con "ETIQUETA_" no se envía nada. */
+  var ADS_ID = "AW-18500310065";
+  var ADS_LABEL_FORM = "ETIQUETA_LEAD_OMINT_FORM";   /* Lead Omint - Formulario */
+  var ADS_LABEL_WA   = "ETIQUETA_LEAD_OMINT_WA";     /* Lead Omint - WhatsApp */
+  function adsConv(label){
+    try{
+      if(!label || label.indexOf("ETIQUETA_")===0 || typeof gtag!=="function") return;
+      gtag("event","conversion",{send_to:ADS_ID+"/"+label});
+    }catch(err){}
+  }
+
+  function waLink(text){ return "https://wa.me/"+WA+(text?"?text="+encodeURIComponent(text):""); }
+  $$("[data-wa]").forEach(function(a){ a.href = waLink(CONFIG.WA_DEFAULT_MESSAGE); });
+  if(CONFIG.WA_DISPLAY){ var sh=$("#waShow"); if(sh) sh.textContent=" WhatsApp: "+CONFIG.WA_DISPLAY; }
+
+  /* ---------- Formulario ---------- */
+  var s1=$("#s1"), s2=$("#s2"), bar=$("#bar"), stepLabel=$("#stepLabel");
+  function setErr(id,msg){
+    var e=$("#e-"+id); if(e) e.textContent=msg||"";
+    var f=$("#"+id); if(f) f.setAttribute("aria-invalid", msg?"true":"false");
+  }
+  function val(id){ return ($("#"+id).value||"").trim(); }
+  function radio(name){ var r=document.querySelector('input[name="'+name+'"]:checked'); return r?r.value:""; }
+
+  function validate1(){
+    var ok=true, n=val("nombre"), t=val("tel"), m=val("mail");
+    if(n.length<2 || n.indexOf(" ")<0 && n.length<3){ setErr("nombre","Escribí tu nombre y apellido."); ok=false } else setErr("nombre");
+    var digits=t.replace(/\D/g,"");
+    if(digits.length<8 || digits.length>15){ setErr("tel","Revisá el número, tiene que tener entre 8 y 15 dígitos."); ok=false } else setErr("tel");
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(m)){ setErr("mail","Escribí un email válido, por ejemplo nombre@mail.com."); ok=false } else setErr("mail");
+    return ok;
+  }
+  function validate2(){
+    var ok=true;
+    if(!radio("sit")){ $("#e-sit").textContent="Elegí cómo aportarías."; ok=false } else $("#e-sit").textContent="";
+    if(!radio("who")){ $("#e-who").textContent="Elegí para quién es el plan."; ok=false } else $("#e-who").textContent="";
+    if(!val("edad")){ setErr("edad","Elegí tu edad."); ok=false } else setErr("edad");
+    if(!val("zona")){ setErr("zona","Elegí tu zona."); ok=false } else setErr("zona");
+    if(!val("cob")){ setErr("cob","Contanos si tenés cobertura hoy."); ok=false } else setErr("cob");
+    if(!$("#ok").checked){ $("#e-ok").textContent="Necesitamos tu aceptación para contactarte."; ok=false } else $("#e-ok").textContent="";
+    return ok;
+  }
+  function go(step){
+    s1.hidden = step!==1; s2.hidden = step!==2;
+    bar.style.width = step===1 ? "50%" : "100%";
+    stepLabel.textContent = "Paso "+step+" de 2";
+    var first = step===1 ? $("#nombre") : $("#f-sit input");
+    if(first && !reduce){ try{ first.focus({preventScroll:true}) }catch(e){} }
+  }
+  $("#next").addEventListener("click", function(){ if(validate1()) go(2); });
+  $("#back").addEventListener("click", function(){ go(1); });
+  ["nombre","tel","mail"].forEach(function(id){ $("#"+id).addEventListener("input", function(){ if($("#e-"+id).textContent) setErr(id) }) });
+  $("#s1").addEventListener("keydown", function(e){ if(e.key==="Enter"){ e.preventDefault(); $("#next").click() } });
+
+  function renderChosen(){
+    var box=$("#chosen"); box.textContent="";
+    function addChip(label, onClear){
+      var b=document.createElement("button"); b.type="button";
+      b.appendChild(document.createTextNode(label));
+      var x=document.createElement("span"); x.textContent="✕"; x.setAttribute("aria-hidden","true"); b.appendChild(x);
+      b.setAttribute("aria-label","Quitar: "+label);
+      b.addEventListener("click", onClear); box.appendChild(b);
+    }
+    if(val("interes")) addChip("Plan "+val("interes"), function(){ $("#interes").value=""; renderChosen() });
+    if(state.promo) addChip("Promo: "+(state.promo.length>46?state.promo.slice(0,44)+"…":state.promo), function(){ state.promo=""; renderChosen() });
+  }
+  $("#interes").addEventListener("change", renderChosen);
+
+  function buildMessage(){
+    var L=["Hola! Soy "+val("nombre")+". Quiero cotizar un plan de Omint.",""];
+    L.push("• Aporte: "+radio("sit"));
+    L.push("• Plan para: "+radio("who"));
+    L.push("• Edad: "+val("edad"));
+    L.push("• Zona: "+val("zona"));
+    L.push("• Cobertura actual: "+val("cob"));
+    if(val("interes")) L.push("• Plan de interés: "+val("interes"));
+    if(state.promo) L.push("• Promo de interés: "+state.promo);
+    L.push("• Teléfono: "+val("tel"));
+    L.push("• Email: "+val("mail"));
+    return L.join("\n");
+  }
+  function addRow(dl,k,v){
+    var d=document.createElement("div"), a=document.createElement("dt"), b=document.createElement("dd");
+    a.textContent=k; b.textContent=v; d.appendChild(a); d.appendChild(b); dl.appendChild(d);
+  }
+  /* Origen de la visita (anuncios): UTM y ids de clic para saber de qué campaña vino cada contacto */
+  function tracking(){
+    var out={}, q=new URLSearchParams(location.search);
+    ["utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","gbraid","wbraid","fbclid"].forEach(function(k){ if(q.get(k)) out[k]=q.get(k) });
+    return out;
+  }
+  function telAR(raw){
+    var x=String(raw||"").replace(/\D/g,"");
+    if(!x) return "";
+    if(x.indexOf("00")===0) x=x.slice(2);
+    if(x.indexOf("549")===0 && x.length===13) return "+"+x;
+    if(x.indexOf("54")===0 && x.length===12) return "+549"+x.slice(2);
+    if(x.indexOf("54")===0 && x.length>12){ x=x.slice(2); if(x.charAt(0)==="9") x=x.slice(1); }
+    if(x.charAt(0)==="0") x=x.slice(1);
+    if(x.length===12){ for(var a=2;a<=4;a++){ if(x.substr(a,2)==="15"){ x=x.slice(0,a)+x.slice(a+2); break; } } }
+    if(x.length===10) return "+549"+x;
+    if(x.length===8) return "+54911"+x;
+    return "+"+x;
+  }
+  /* Campos listos para mapear en GoHighLevel: nombre separado, teléfono +549, etiqueta y un resumen para la nota */
+  function enrich(d){
+    var partes=String(d.nombre||"").trim().split(/\s+/);
+    d.nombre_pila=partes[0]||""; d.apellido=partes.slice(1).join(" ");
+    d.telefono_ghl=telAR(d.telefono);
+    d.email=String(d.email||"").trim().toLowerCase();
+    d.etiqueta=d.origen;
+    d.marca=MARCA;
+    var src=String(d.utm_source||"").toLowerCase();
+    d.fuente_anuncio=(d.gclid||d.gbraid||d.wbraid||src.indexOf("google")>-1)?"google-ads":((d.fbclid||/facebook|instagram|meta|^fb$|^ig$/.test(src))?"meta-ads":"sin-anuncio");
+    var filas=[["Landing",d.marca],["Aporte",d.aporte],["Plan para",d.para],["Edad",d.edad],["Zona",d.zona],["Cobertura actual",d.cobertura_actual],
+      ["Plan de interés",d.linea],["Promo",d.promo],["Teléfono escrito",d.telefono],["Campaña",d.utm_campaign],["Palabra clave",d.utm_term],
+      ["Fuente",d.utm_source],["gclid",d.gclid],["Página",d.pagina]];
+    d.resumen="Consulta desde la landing de "+d.marca+"\n\n"+filas.filter(function(f){return f[1]}).map(function(f){return f[0]+": "+f[1]}).join("\n");
+    return d;
+  }
+  function post(url, data){
+    var body=new URLSearchParams();
+    Object.keys(data).forEach(function(k){ body.append(k, data[k]==null?"":data[k]) });
+    var ctl=window.AbortController ? new AbortController() : null;
+    var timer=setTimeout(function(){ if(ctl) ctl.abort() }, 8000);
+    return fetch(url,{method:"POST",mode:"no-cors",body:body,keepalive:true,signal:ctl?ctl.signal:undefined})
+      .then(function(){ clearTimeout(timer); return true })
+      .catch(function(){ clearTimeout(timer); return false });
+  }
+  /* Envía el contacto a GoHighLevel y a LEAD_WEBHOOK a la vez. Resuelve true si salió al menos a uno. */
+  function sendLead(data){
+    var urls=[GHL_WEBHOOK, LEAD_WEBHOOK].filter(Boolean);
+    if(!urls.length) return Promise.resolve(false);
+    return Promise.all(urls.map(function(u){ return post(u, data) }))
+      .then(function(r){ return r.some(Boolean) });
+  }
+  var sending=false;
+  $("#lead").addEventListener("submit", function(e){
+    e.preventDefault();
+    if(sending) return;
+    if(!validate1()){ go(1); return }
+    if(!validate2()) return;
+    var msg=buildMessage(), first=val("nombre").split(" ")[0];
+    if(!$("#hp").value) adsConv(ADS_LABEL_FORM);
+    window.dataLayer=window.dataLayer||[];
+    window.dataLayer.push({event:"generate_lead",marca:MARCA,linea:val("interes")||"sin_definir",aporte:radio("sit"),para:radio("who"),zona:val("zona"),promo:state.promo||"ninguna"});
+    var data={nombre:val("nombre"),telefono:val("tel"),email:val("mail"),aporte:radio("sit"),para:radio("who"),edad:val("edad"),
+      zona:val("zona"),cobertura_actual:val("cob"),linea:val("interes"),promo:state.promo,mensaje:msg,
+      pagina:location.href.split("?")[0],fecha:new Date().toISOString(),origen:ORIGEN};
+    var t=tracking(); Object.keys(t).forEach(function(k){ data[k]=t[k] });
+    enrich(data);
+    var btn=document.querySelector('#lead button[type="submit"]'), label=btn.innerHTML;
+    sending=true; btn.disabled=true; btn.textContent="Enviando…";
+    /* campo trampa: si un bot lo completa, parece que todo salió bien pero no se guarda nada */
+    var job = $("#hp").value ? Promise.resolve(true) : sendLead(data);
+    job.then(function(saved){
+      sending=false; btn.disabled=false; btn.innerHTML=label;
+      $("#doneTitle").textContent = saved ? "¡Listo, "+first+"!" : "Último paso, "+first;
+      $("#doneLead").textContent = saved
+        ? "Enviamos tus datos y te escribimos por WhatsApp con tu cotización. Si querés avanzar ya, escribinos vos."
+        : "Tocá el botón para enviarnos tu consulta por WhatsApp. Ya viene escrita con tus datos.";
+      $("#waSendLabel").textContent = saved ? "Escribirnos ahora" : "Enviar por WhatsApp";
+      var dl=$("#summary"); dl.textContent="";
+      addRow(dl,"Aporte",radio("sit")); addRow(dl,"Plan para",radio("who")); addRow(dl,"Edad",val("edad")); addRow(dl,"Zona",val("zona"));
+      if(val("interes")) addRow(dl,"Plan",val("interes"));
+      if(state.promo) addRow(dl,"Promo",state.promo);
+      $("#waSend").href = waLink(msg);
+      $("#formView").hidden=true; $("#doneView").hidden=false;
+      $("#cotizar").scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"});
+    });
+  });
+  $("#edit").addEventListener("click", function(){ $("#doneView").hidden=true; $("#formView").hidden=false; go(1); });
+
+  function toForm(){
+    renderChosen();
+    $("#doneView").hidden=true; $("#formView").hidden=false;
+    $("#cotizar").scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"});
+  }
+
+  /* ---------- Planes: elegir y filtrar ---------- */
+  $$(".pick").forEach(function(b){
+    b.addEventListener("click", function(){ $("#interes").value=b.getAttribute("data-line"); toForm(); });
+  });
+  $$(".chip").forEach(function(c){
+    c.addEventListener("click", function(){
+      var f=c.getAttribute("data-f");
+      $$(".chip").forEach(function(x){ x.setAttribute("aria-pressed", x===c?"true":"false") });
+      $$("#lines [data-for]").forEach(function(l){
+        var tags=(l.getAttribute("data-for")||"").split(" ");
+        l.setAttribute("data-dim", f!=="all" && tags.indexOf(f)<0 ? "true":"false");
+      });
+    });
+  });
+
+  /* ---------- Promos: tocar y carrusel ---------- */
+  $$(".promo").forEach(function(p){
+    p.addEventListener("click", function(){ state.promo=p.getAttribute("data-promo"); toForm(); });
+  });
+  var track=$("#track"), dots=$$("#dots i");
+  function step(){ var c=track.querySelector(".promo"); return c ? c.getBoundingClientRect().width+18 : 300 }
+  $("#prev").addEventListener("click", function(){ track.scrollBy({left:-step(),behavior:reduce?"auto":"smooth"}) });
+  $("#nextp").addEventListener("click", function(){ track.scrollBy({left:step(),behavior:reduce?"auto":"smooth"}) });
+  track.addEventListener("scroll", function(){
+    var i=Math.round(track.scrollLeft/step()); i=Math.max(0,Math.min(dots.length-1,i));
+    dots.forEach(function(d,k){ d.className = k===i?"on":"" });
+  }, {passive:true});
+
+  /* ---------- Cartilla por zona ---------- */
+  var tabs=$$(".ztab"), zonaSel="CABA";
+  tabs.forEach(function(t){
+    t.addEventListener("click", function(){
+      tabs.forEach(function(x){ var on=x===t; x.setAttribute("aria-selected", on?"true":"false"); $("#"+x.getAttribute("aria-controls")).hidden=!on; });
+      zonaSel=t.textContent.trim();
+    });
+  });
+  $("#cartillaBtn").addEventListener("click", function(){
+    var z={"CABA":"CABA","Zona Norte":"GBA Norte","Zona Oeste":"GBA Oeste","Zona Sur":"GBA Sur"}[zonaSel];
+    if(z) $("#zona").value=z;
+    state.promo=""; toForm();
+  });
+
+  /* ---------- Medición: clic en cualquier botón de WhatsApp ---------- */
+  document.addEventListener("click", function(e){
+    var a=e.target.closest && e.target.closest('a[href^="https://wa.me/"]');
+    if(a){ window.dataLayer=window.dataLayer||[]; window.dataLayer.push({event:"whatsapp_click",marca:MARCA,origen:a.id||"enlace"}); adsConv(ADS_LABEL_WA); }
+  });
+})();
+</script>
+</body>
+</html>
