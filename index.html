@@ -488,7 +488,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <label for="edad">Tu edad</label>
                   <select id="edad" name="edad">
                     <option value="">Elegí</option>
-                    <option>18 a 25</option><option>26 a 35</option><option>36 a 45</option><option>46 a 59</option><option>60 o más</option>
+                    <option>18 a 25</option><option>26 a 35</option><option>36 a 45</option><option>46 a 55</option><option>Más de 55</option>
                   </select>
                   <div class="err" id="e-edad" role="alert"></div>
                 </div>
@@ -496,7 +496,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <label for="zona">Zona</label>
                   <select id="zona" name="zona">
                     <option value="">Elegí</option>
-                    <option>CABA</option><option>GBA Norte</option><option>GBA Oeste</option><option>GBA Sur</option><option>La Plata</option><option>Otra zona</option>
+                    <option>CABA</option><option>GBA Norte</option><option>GBA Oeste</option><option>GBA Sur</option><option>Otra zona</option>
                   </select>
                   <div class="err" id="e-zona" role="alert"></div>
                 </div>
@@ -504,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <label for="cob">Cobertura actual</label>
                   <select id="cob" name="cob">
                     <option value="">Elegí</option>
-                    <option>No tengo</option><option>Obra social</option><option>Prepaga</option>
+                    <option>No tengo</option><option>Obra social</option><option>Otra prepaga</option><option>Ya soy socio de Omint</option>
                   </select>
                   <div class="err" id="e-cob" role="alert"></div>
                 </div>
@@ -1004,10 +1004,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     if(!validate1()){ go(1); return }
     if(!validate2()) return;
     var msg=buildMessage(), first=val("nombre").split(" ")[0];
-    if(!$("#hp").value) adsConv(ADS_LABEL_FORM);
+    /* Solo cuenta como conversión si es público objetivo: hasta 55 años, CABA/GBA y no socio de Omint */
+    var calificado = val("edad")!=="Más de 55" && val("zona")!=="Otra zona" && val("cob")!=="Ya soy socio de Omint";
+    state.noCalif = !calificado;
+    if(!$("#hp").value && calificado) adsConv(ADS_LABEL_FORM);
     window.dataLayer=window.dataLayer||[];
-    window.dataLayer.push({event:"generate_lead",marca:MARCA,linea:val("interes")||"sin_definir",aporte:radio("sit"),para:radio("who"),zona:val("zona"),promo:state.promo||"ninguna"});
-    var data={nombre:val("nombre"),telefono:val("tel"),email:val("mail"),aporte:radio("sit"),para:radio("who"),edad:val("edad"),
+    window.dataLayer.push({event:"generate_lead",marca:MARCA,linea:val("interes")||"sin_definir",aporte:radio("sit"),para:radio("who"),zona:val("zona"),promo:state.promo||"ninguna",calificado:calificado?"si":"no"});
+    var data={calificado:calificado?"si":"no",nombre:val("nombre"),telefono:val("tel"),email:val("mail"),aporte:radio("sit"),para:radio("who"),edad:val("edad"),
       zona:val("zona"),cobertura_actual:val("cob"),linea:val("interes"),promo:state.promo,mensaje:msg,
       pagina:location.href.split("?")[0],fecha:new Date().toISOString(),origen:ORIGEN};
     var t=tracking(); Object.keys(t).forEach(function(k){ data[k]=t[k] });
@@ -1115,7 +1118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   /* ---------- Medición: clic en cualquier botón de WhatsApp ---------- */
   document.addEventListener("click", function(e){
     var a=e.target.closest && e.target.closest('a[href^="https://wa.me/"]');
-    if(a){ window.dataLayer=window.dataLayer||[]; window.dataLayer.push({event:"whatsapp_click",marca:MARCA,origen:a.id||"enlace"}); adsConv(ADS_LABEL_WA); }
+    if(a){ window.dataLayer=window.dataLayer||[]; window.dataLayer.push({event:"whatsapp_click",marca:MARCA,origen:a.id||"enlace"}); if(!state.noCalif) adsConv(ADS_LABEL_WA); }
   });
 })();
 </script>
